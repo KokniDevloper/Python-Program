@@ -13,5 +13,5 @@ def main():
         totalvalue += dice
     print(f"Total value of all dice: {totalvalue}")
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
         main()
