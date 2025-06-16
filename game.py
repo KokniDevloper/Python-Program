@@ -2,18 +2,20 @@ import random
 
 def main():
     print("Hello")
-    print("Welcome to Rock Paper and Scissor")
+    print("Welcome to Rock Paper and Scissor Game")
     print("Lets Begin")
     print("(You can Exit the game by entering 0)")
-    player_ans = int(input("Enter your choice: \nFor Rock: Enter 1\nFor Paper: Enter 2\nFor Scissor: Enter 3\nYOUR CHOICE: "))
-    if player_ans < 0 or player_ans > 3:
-        print("Invalid Input")
-        return
+    player_ans = player_ans_function()
     while player_ans != 0:
         bot_ans = bot_logic()
         winner(player_ans,bot_ans)
-        player_ans = continue_game()
+        player_ans = player_ans_function()
     print("Thanks for playing")
+ 
+def player_ans_function():
+    player_ans = input("Enter your choice: \nFor Rock: Enter 1\nFor Paper: Enter 2\nFor Scissor: Enter 3\nYOUR CHOICE: ")
+    player_ans = validator(player_ans)
+    return player_ans
 
 def bot_logic():
     bot_ans= random.randint(1, 3)
@@ -64,14 +66,15 @@ def winner(player_ans, bot_ans):
             print("Player Wins")
     print("\n\n----------------------------------------------\n\n")
 
-def continue_game():
-    player_ans = int(input("Enter your choice: \nFor Rock: Enter 1\nFor Paper: Enter 2\nFor Scissor: Enter 3\nYOUR CHOICE: "))
-    if player_ans < 0 or player_ans > 3:
-        print("Invalid Input")
-        print("Exiting the game")
-        return 0
+
+def validator(ans):
+    if ans in ("0", "1", "2", "3"):
+        return int(ans)
     else:
-        return player_ans
+        print("\nInvalid Input")
+        print("Please Enter Valid Number Only")
+        print("Please Try Again\n")
+        return player_ans_function()
 
 if __name__ == "__main__":
     main()
