@@ -25,6 +25,13 @@ I began Python in **May 2025** after being selected for *Code in Place by Stanfo
 5. [**numberguess.py**](./numberguess.py)  
    🔢 A number guessing game with hints.
 
+6. [**tkinter_calculator.py**](./tkinter_calculator.py)  
+   🛠️ Beta v0.1 – Basic two‑number operations (+, –, *, /) in Tkinter *(June 19, 2025)*
+
+---
+
+> **For a structured, detailed history of every change in projects, please see [CHANGELOG.md](./CHANGELOG.md).**
+
 ---
 
 ## 🔮 Future Plans
@@ -38,7 +45,9 @@ I began Python in **May 2025** after being selected for *Code in Place by Stanfo
 
 ## ✅ Achievements
 
-- 🗂️ Added a structured `CHANGELOG.md`  
+- 🗂️ Added a structured `CHANGELOG.md` 
+- 🧮 Added a Beta version of Tkinter calculator application
+ 
 
 ## 🛠️ Fixes & Improvements *(Latest Commits)*
 

@@ -39,7 +39,7 @@
    **Commit:** [`f1093f9`](https://github.com/KokniDevloper/Python-Program/commit/f1093f94baf86069fb192d0c982f5fdee4f68dc0) 
    ✨ A Rock, Paper, Scissors game against the bot 🤖✊✋✌ 
 
-   **Future Updates:**
+   **🚀 Future Updates:**
    - Add a score system  
    - Add dictionary for moves  
    - Improve user experience
@@ -62,7 +62,7 @@
    **Commit:** [`aff70b9`](https://github.com/KokniDevloper/Python-Program/commit/aff70b99a905b98e8e7cff7e74e849809e8f90d4)
    ✨ A number guessing game 🔢 with hints.
 
-   **Future Updates:**
+   **🚀 Future Updates:**
    - Add a score system  
    - Add hint system  
    - Improve user experience  
@@ -78,3 +78,19 @@
 7. [CHANGELOG.md](./CHANGELOG.md)  
    📜 Created a CHANGELOG to record all project changes, versions, and updates.
    📜 You're reading it!
+
+---
+
+8. [tkinter_calculator.py](./tkinter_calculator.py)  
+   **Version:** `v0.1.0‑beta`  
+   **Commit:** [`6d75f28`](https://github.com/KokniDevloper/Python-Program/commit/6d75f2837bf30084df3e20f24322b028761537ed)  
+   🛠️ **Initial implementation** of a Tkinter calculator with basic operations  
+   - ⚙️ Supports operations on two numbers  
+   - ➕➖✖️➗ Supports basic arithmetic operations  
+
+   **🚀 Future Updates:**  
+   - Implement OOP concepts  
+   - Implement multi-number operations logic  
+   - 🛡️ Implement error handling
+
+---
